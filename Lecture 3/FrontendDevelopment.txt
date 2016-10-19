@@ -1,0 +1,17 @@
+
+What is frontend development?
+Everything that happens at the client (in the browser).
+htmls/css/javascript
+
+Which skills are expected?
+
+Which skills do you want to improve during this course?
+- Using html5/css3/javascript
+- Frontend frameworks
+- Frontend tools/utilities
+- Angular/Angular2
+- Typescript
+- Canvas
+- GULP
+	
+

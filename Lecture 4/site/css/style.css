@@ -1,0 +1,203 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+header, main, section, p, button {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav, nav ul {
+    line-height: 100px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.logoimage {
+    content: url("http://dummyimage.com/300x100/ff0000/ffffff&text=LOGO");
+}
+
+.navlinks {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.navcontainer {
+    width: calc(100% - 200px);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.navcontainer a {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.navcontainer a:hover, .navcontainer a:active {
+    color: greenyellow;
+}
+
+
+.navcontainer button {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.pull-right {
+    float: right;
+    display: block;
+}
+
+.pull-left {
+    float:left;
+    display: block;
+}
+
+.visible-xs-block, .visible-sm-block, .visible-md-block, .visible-lg-block {
+    display: block;
+}
+
+.hidden-xs-block, .hidden-sm-block, .hidden-md-block, .hidden-lg-block {
+    display: none; 
+}
+
+.backgroundimage {
+    background-image: url("http://dummyimage.com/300x100/ff0000/ffffff&text=LOGO");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 100px;
+}
+
+.productdescription {
+    height: 400px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+    margin: 0 1% 1vh 0; /* top, right, bottom, left */
+    background-color: crimson;
+    float: left;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) { /* Extra small device */
+
+    header {
+        background-color: deepskyblue;
+    }
+ 
+    .visible-xs-block, .visible-sm-block {
+        display: block;
+    }
+    
+    .visible-md-block, .visible-lg-block {
+        display: none;
+    }
+    
+    .backgroundimage {
+        background-image: url("http://dummyimage.com/100x100/ff0000/ffffff&text=LOGO");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .productdescription {
+        width: 100%;
+        /*margin-right: 0px;*/
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) { /* Small device */
+
+    header {
+        background-color: black;
+    }
+    
+   .visible-xs-block, .visible-sm-block {
+        display: block;
+    }
+    
+    .visible-md-block, .visible-lg-block {
+        display: none;
+    }
+    
+    .backgroundimage {
+        background-image: url("http://dummyimage.com/100x100/ff0000/ffffff&text=LOGO");
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .productdescription {
+        width: calc(99% / 2);
+    }
+    
+    .productdescription:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { /* Medium device */
+
+    header {
+        background-color: orange;
+    }
+    
+   .visible-xs-block, .visible-sm-block {
+        display: none;
+    }
+    
+    .visible-md-block, .visible-lg-block {
+        display: block;
+    }
+    
+    .productdescription {
+        width: calc(99% / 2);
+    }
+    
+    .productdescription:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* Large device */
+    
+    header {
+        background-color: forestgreen;
+    }
+    
+   .visible-xs-block, .visible-sm-block {
+        display: none;
+    }
+    
+    .visible-md-block, .visible-lg-block {
+        display: block;
+    }
+    
+    .productdescription {
+        width: calc(97% / 4);
+    }
+    
+    .productdescription:nth-child(4n) {
+        margin-right: 0px;
+    }
+}

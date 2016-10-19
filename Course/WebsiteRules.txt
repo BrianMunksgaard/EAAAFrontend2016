@@ -1,0 +1,82 @@
+Six Lessons from Bauhaus:
+1. Form Follows Function
+The lesson: never sacrifice your message for your design. Focus on readability, narrative, and information first, artistic flair and frills second. Use your design to reinforce your message, never the other way around.
+
+2. There is Always a Connection Between Color and Shape
+The lesson: colors and shapes may hold deeper connections than we realize. Consider your combinations carefully.
+
+3. Clean, Powerful Typography Matters
+The lesson: be as imaginative with your typography as you are with every other tool in your toolbox, but make sure it never detracts from your message. 
+
+4. You Don’t Have to Abolish Capital Letters, But Sometimes It Helps
+The lesson: Make your design accessible. If you’re hoping to appeal to a wide audience, avoid over-stylizing. Reduce your design to its most essential elements. 
+
+5. Share and Collaborate
+The lesson: Work with others, share ideas, and don’t live in fear of losing credit. Sometimes getting better and learning is more important. 
+
+6. Imitation is the Highest Form of Flattery: The Bauhaus is Everywhere
+The lesson: When you see a great graphic idea, be inspired.
+
+-----------------------------------------------------------------------------
+dafont.com
+fontsquirrel
+-----------------------------------------------------------------------------
+
+
+Class->Styles->Typefaces/Font family->Font->Glyph
+
+Audience: Age, Gender, Cultural Niche
+Tone: Casual, Friendly, formal, fun
+Purpose: Information, conversion, conversation
+
+Font choice:
+Header -> Serif
+Body -> Sans-Serif
+
+Don't choose two fonts from the same style
+Don't choose two fonts from the same class
+
+Choose two with one similarity.
+
+Contrast over harmony, keep it the same or change it a lot.
+
+Size choice:
+Visual Hierarchy.
+Start with Body Copy (Rule of thumb: 16px font) -> Headline 200%-300% af body copy -> B-Line 150% body copy -> Navigation samme som body copy -> 
+Byline 75% af body copy.
+
+Leading (between lines):
+120%-150% af body copy size
+CSS -> line-height: 1.5;
+
+Weight: Less is more. Header bolder/thicker than body copy.
+
+line-width: Measured in CPL (Characters per line) 50-70 is ideal.
+CSS - > max-width
+
+------------------------------------------------------------------------------------------------------------
+Mobile first (foundation for responsive design):
+1 Simplify content
+2 Prioritize layout
+3 Optimize user experience
+Content defines breakpoints (in adaptive design, the height and the width of the device determines the break points)
+
+------------------------------------------------------------------------------------------------------------
+Color scheme
+Base color: 
+Red-> Heat, Passion, Excitement. Invokes speed and energy.
+Orange: Warmth, Vitality – Reliability and playfulness.
+Yellow: Optimism, Creativity – Sunshine and happiness.
+Green: Serenity, Health – Growth, nature and freshness.
+Blue: Security, Truth, Stability – Implies loyability, reliability and open communication.
+Purple: Spirituality, Intelligence, Wealth – Loyal, sentimental, sophisticated.
+Pink: Youthful intensity – Energy, Fun, Excitement.
+Brown: Durability, Class – Age, Stability, Relaxation.
+Black: Power, Drama – Serious, Bold, Strong
+White: Simplicity, Cleanliness – Youthful, Mild, Pure
+
+Hue: Base colour, degrees on wheel, shade or tone.
+Saturation: Greyness or intensity, worn out, cleanness.
+Value or Brightness or lightness : amount of black or white.
+Balance or harmony: Imitation of nature.
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="shop">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-controller="shopController">
+  <table class="table">
+	<thead>
+	<tr>
+	  <th>Title</th>
+	  <th>Style</th>
+	  <th></th>
+	</tr>
+	</thead>
+	<tbody>
+    <tr ng-repeat="product in products">
+      <td>{{ product.title }}</td>
+	  <td>{{ product.style }}</td>
+	  <td><button ng-click="selectBeer(product.title)" class="btn btn-success">View</button></td>
+	</tr>
+	</tbody>	
+  </table>
+  <div class="alert alert-success" ng-show="isBeerSelected()">
+	  {{ currentBeer }} has been selected.
+  </div>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="app/app.module.js"></script>
+  <script src="app/app.controller.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,14 @@
+
+
+.cart {
+	margin-top: 50px;
+	text-align: left;
+	border-style: dashed;
+	border-width: thin;
+	width: 300px;
+	background-color: aliceblue;
+}
+
+.cart h1 {
+	margin-bottom: 3px;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url("../img/new-sail-boat-desktop-wallpapers-fresh-beautiful-desktop-background-images-of-sailboat-widescreen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mainpanel {
+    margin-top: 15px;
+}
+
+.navlinks {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.navcontainer {
+    width: calc(100% - 200px);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.navcontainer a {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.navcontainer a:hover, .navcontainer a:active {
+    color: greenyellow;
+}
+
+.navcontainer button {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.rightadjust {
+    float: right
+}
+
+.leftadjust {
+    float:left;
+}

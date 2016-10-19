@@ -1,0 +1,23 @@
+Transitional fonts:
+Headline: Lora (serif)
+Body: Lato (sans serif)
+
+Class->Styles->Typefaces/Font family->Font->Glyph
+
+Class: Serif or Sans Serif
+
+Styles:
+Humanist: Classic & Traditional. Great for journalism or historical applications.
+Transitional: Strong, Stylish, & Dynamic. Great for traditional academia and legal applications.
+Modern: Structured, Clear, & Elegant. Great for arts and culture applications.
+Egyptian (Slan Serif): Authoritative, yet friendly. Great for marketing and promotional applications.
+Old Style:
+Geometric:
+
+Sans Serif:
+Humanist: Tension between perfect and imperfect. Great for government or education applications.
+Transitional: Unassuming & Modern. Great for technology or transportation applications.
+Geometri Sans Serif: Strict, Objective & Universal. Great for a science or architecture application.
+
+
+Business Area->Applicable typographies->Fonts->Examples (BodyCopy, NavBar, Header, ByLine).
